@@ -16,8 +16,8 @@ st.header('画像から、性別、年齢、感情を分析します。')
 st.subheader('画像をアップロードして下さい。')
 
 # FaceAPIの設定
-subscription_key = '14537b64c94448de813a8ebfb5abf79d' # AzureのAPIキー
-endpoint = 'https://20211021taka.cognitiveservices.azure.com/' # AzureのAPIエンドポイント
+subscription_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # AzureのAPIキー
+endpoint = 'https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/' # AzureのAPIエンドポイント
 
 # クライアントを認証する
 face_client = FaceClient(endpoint, CognitiveServicesCredentials(subscription_key))
